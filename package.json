@@ -18,13 +18,17 @@
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",
     "babel-loader": "^8.2.5",
+    "chart.js": "^3.8.1",
+    "chartjs-plugin-datalabels": "^2.0.0",
     "core-js": "^3.23.5",
     "css-loader": "^6.7.1",
     "mini-css-extract-plugin": "^2.6.1",
+    "read-excel-file": "^5.4.4",
     "regenerator-runtime": "^0.13.9",
     "sass": "^1.54.0",
     "sass-loader": "^13.0.2",
     "webpack": "^5.73.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "xlsx": "^0.18.5"
   }
 }
