@@ -8,7 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
     'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bermuda', 'Bhutan', 'Bolivia', 
     'Bosnia and Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Cape Verde', 
     'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Congo', 'Costa Rica', "Cote d'Ivoire", 'Croatia', 'Cuba', 'Cyprus',
-    'Czechia', 'Democratic Republic of Congo', 'Denmark', 'Djibouti', 'Dominica'
+    'Czechia', 'Democratic Republic of Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea',
+    'Eritrea', 'Estonia', 'Eswatini', 'Ethiopia', 'Fiji', 'Finland', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Greenland', 'Guam', 'Guatemala',
+    'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hungary', "Iceland", 'India', 'Indonesia', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 
+    'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kiribati', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya',
+    'Lithuania', 'Luxembourg'
   ]
 
   let countriesInnerContainer = document.getElementById('countries-inner-container')
@@ -256,9 +260,9 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'Dominican Republic':
         table = data.split(/\n/).slice(613, 625);
         break;
-      case 'East Asia and Pacific': 
-        table = data.split(/\n/).slice(625, 637);
-        break;
+      // case 'East Asia and Pacific': 
+      //   table = data.split(/\n/).slice(625, 637);
+      //   break;
       case 'Ecuador':
         table = data.split(/\n/).slice(637, 649);
         break;
@@ -283,12 +287,12 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'Ethiopia':
         table = data.split(/\n/).slice(721, 732);
         break;
-      case 'Europe and Central Asia':
-        table = data.split(/\n/).slice(732, 745);
-        break;
-      case 'European Union':
-        table = data.split(/\n/).slice(745, 757);
-        break;
+      // case 'Europe and Central Asia':
+      //   table = data.split(/\n/).slice(732, 745);
+      //   break;
+      // case 'European Union':
+      //   table = data.split(/\n/).slice(745, 757);
+      //   break;
       case 'Fiji':
         table = data.split(/\n/).slice(757, 769);
         break;
@@ -340,9 +344,9 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'Haiti':
         table = data.split(/\n/).slice(949, 961);
         break;
-      case 'High income':
-        table = data.split(/\n/).slice(961, 973);
-        break;
+      // case 'High income':
+      //   table = data.split(/\n/).slice(961, 973);
+      //   break;
       case 'Honduras':
         table = data.split(/\n/).slice(973, 985);
         break;
@@ -400,9 +404,9 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'Laos':
         table = data.split(/\n/).slice(1189, 1201);
         break;
-      case 'Latin America and Caribbean':
-        table = data.split(/\n/).slice(1201, 1213);
-        break;
+      // case 'Latin America and Caribbean':
+      //   table = data.split(/\n/).slice(1201, 1213);
+      //   break;
       case 'Latvia':
         table = data.split(/\n/).slice(1213, 1225);
         break;
@@ -421,15 +425,15 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'Lithuania':
         table = data.split(/\n/).slice(1273, 1285);
         break;
-      case 'Low and middle income':
-        table = data.split(/\n/).slice(1285, 1297);
-        break;
-      case 'Low income':
-        table = data.split(/\n/).slice(1297, 1309);
-        break;
-      case 'Lower middle income':
-        table = data.split(/\n/).slice(1309, 1321);
-        break;
+      // case 'Low and middle income':
+      //   table = data.split(/\n/).slice(1285, 1297);
+      //   break;
+      // case 'Low income':
+      //   table = data.split(/\n/).slice(1297, 1309);
+      //   break;
+      // case 'Lower middle income':
+      //   table = data.split(/\n/).slice(1309, 1321);
+      //   break;
       case 'Luxembourg':
         table = data.split(/\n/).slice(1321, 1333);
         break;
@@ -743,4 +747,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     return { xlabels, ypm25, countryName };
   };
+
 });
