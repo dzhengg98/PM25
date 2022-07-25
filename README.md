@@ -3,7 +3,7 @@
 Welcome to PM25! PM25 is a interactive data Javascript project that details the various concentrations of Air Pollution across the Globe. In it you can view the fine particulate matter - termed 'PM2.5' and how exposed each country is around a 30 year span (1990 to 2017).
 
 <img src="./src/assets/PM25.png" alt="PM25.png">
-<a href="" style="text-align: center; display: block; margin: 0 auto;">Live Link</a>
+<a href="https://dzhengg98.github.io/PM25/" style="text-align: center; display: block; margin: 0 auto;">Live Link</a>
 
 # Features
 
