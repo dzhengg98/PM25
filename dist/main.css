@@ -52,4 +52,72 @@ table {
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
+* {
+  background-color: lavender;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.first-section {
+  display: flex;
+  margin: 30px 50px;
+  justify-content: center;
+}
+.first-section .text-info {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 100px;
+  border: 2px double black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.first-section .countries-container {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  min-width: 175px;
+  max-height: 640px;
+  border: 2px double black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.first-section .countries-container h2 {
+  text-align: center;
+  margin: 10px 0 15px;
+  font-weight: bold;
+}
+.first-section .countries-container .countries-inner-container {
+  overflow-y: scroll;
+}
+.first-section .countries-container .countries-inner-container .country-container {
+  margin-left: 0px;
+}
+.first-section .countries-container .countries-inner-container .country-container .country-name {
+  position: relative;
+  top: -20px;
+  left: 60px;
+  font-size: 12px;
+  width: 115px;
+}
+.first-section .countries-container .countries-inner-container .country-container .country-name:hover {
+  color: skyblue;
+}
+
+.countries {
+  width: 40px;
+  height: auto;
+  margin: 1px;
+  cursor: pointer;
+}
+.countries img {
+  width: inherit;
+  height: inherit;
+  object-fit: fill;
+}

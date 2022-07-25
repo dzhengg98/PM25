@@ -1,1 +1,71 @@
 @import "./styles/reset.css";
+
+* {
+  background-color: lavender;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.first-section {
+  display: flex;
+  margin: 30px 50px;
+  justify-content: center;
+  .text-info {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 100px;
+    border: 2px double black;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .countries-container {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    min-width: 175px;
+    max-height: 640px;
+    border: 2px double black;
+    border-radius: 10px;
+    padding: 10px;
+    h2 {
+      text-align: center;
+      margin: 10px 0 15px;
+      font-weight: bold;
+    }
+    .countries-inner-container {
+      overflow-y: scroll;
+      .country-container {
+        margin-left: 0px;
+        .country-name {
+          position: relative;
+          top: -20px;
+          left: 60px;
+          font-size: 12px;
+          width: 115px;
+        }
+        .country-name:hover {
+          color: skyblue;
+        }
+      }
+    }
+  }
+}
+
+.countries {
+  width: 40px;
+  height: auto;
+  margin: 1px;
+  cursor: pointer;
+  img {
+    width: inherit;
+    height: inherit;
+    object-fit: fill;
+  }
+}
