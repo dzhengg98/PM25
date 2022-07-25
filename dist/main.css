@@ -121,3 +121,67 @@ table {
   height: inherit;
   object-fit: fill;
 }
+
+.second-section {
+  display: flex;
+  margin: 30px 50px;
+  justify-content: center;
+}
+.second-section #countryInfo {
+  display: flex;
+  margin: 30px 50px;
+  justify-content: center;
+}
+.second-section #countryInfo .country-info-inner-1 {
+  width: 300px;
+  max-width: 300px;
+  margin-right: 100px;
+  border: 2px double black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.second-section #countryInfo .country-info-inner-1 .country-map {
+  width: 300px;
+}
+.second-section #countryInfo .country-info-inner-2 {
+  width: 576px;
+  border: 2px double black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.second-section #countryInfo .country-info-inner-2 .country-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 0;
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange {
+  width: 100px;
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 h4,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 h4,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange h4,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange h4 {
+  font-size: 16px;
+  height: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgba(34, 34, 34, 0.8);
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange div {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  color: rgba(34, 34, 34, 0.8);
+}
