@@ -93,20 +93,20 @@ table {
   margin: 10px 0 15px;
   font-weight: bold;
 }
-.first-section .countries-container .countries-inner-container {
+.first-section .countries-container #countries-inner-container {
   overflow-y: scroll;
 }
-.first-section .countries-container .countries-inner-container .country-container {
+.first-section .countries-container #countries-inner-container .country-container {
   margin-left: 0px;
 }
-.first-section .countries-container .countries-inner-container .country-container .country-name {
+.first-section .countries-container #countries-inner-container .country-container .country-name {
   position: relative;
   top: -20px;
   left: 60px;
   font-size: 12px;
   width: 115px;
 }
-.first-section .countries-container .countries-inner-container .country-container .country-name:hover {
+.first-section .countries-container #countries-inner-container .country-container .country-name:hover {
   color: skyblue;
 }
 

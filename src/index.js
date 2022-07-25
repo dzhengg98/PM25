@@ -8,16 +8,48 @@ document.addEventListener("DOMContentLoaded", () => {
     'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bermuda', 'Bhutan', 'Bolivia', 
     'Bosnia and Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Cape Verde', 
     'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Congo', 'Costa Rica', "Cote d'Ivoire", 'Croatia', 'Cuba', 'Cyprus',
-    'Czechia', 'Democratic Republic of Congo', 'Denmark'
+    'Czechia', 'Democratic Republic of Congo', 'Denmark', 'Djibouti', 'Dominica'
   ]
 
-  arrayOfCountries.forEach(country => document.getElementById(country.replace(/ /g, '')).addEventListener("click", (e) => {
-    e.preventDefault();
-    if (myChart) {
-      myChart.destroy();
-    }
-    createChart(country);
-  }));
+  let countriesInnerContainer = document.getElementById('countries-inner-container')
+
+  function createCountries() {
+    arrayOfCountries.forEach((country) => {
+      let countryContainer = document.createElement('div');
+      countryContainer.classList.add('country-container');
+      countriesInnerContainer.appendChild(countryContainer);
+      
+      let countries = document.createElement('div');
+      countries.classList.add('countries');
+      countries.setAttribute('id', country.replace(/ /g, ''));
+      countryContainer.appendChild(countries);
+      
+      let countryImage = document.createElement('img');
+      countryImage.title = country;
+      countryImage.src = `./src/assets/${country}.svg`;
+      countryImage.srcset = `./src/assets/${country}.svg`;
+      countryImage.alt = country;
+      countries.appendChild(countryImage);
+      
+      let countryName = document.createElement('div');
+      countryName.classList.add('country-name');
+      countries.appendChild(countryName);
+      countryName.textContent += country;
+    })
+  }
+
+  createCountries();
+  createChartForCountry();
+
+  function createChartForCountry() {
+    arrayOfCountries.forEach(country => document.getElementById(country.replace(/ /g, '')).addEventListener("click", (e) => {
+      e.preventDefault();
+      if (myChart) {
+        myChart.destroy();
+      }
+      createChart(country);
+    }));
+  }
 
   async function createChart(field) {
     const data = await getData(field);
