@@ -12,7 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
     'Eritrea', 'Estonia', 'Eswatini', 'Ethiopia', 'Fiji', 'Finland', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Greenland', 'Guam', 'Guatemala',
     'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hungary', "Iceland", 'India', 'Indonesia', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 
     'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kiribati', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya',
-    'Lithuania', 'Luxembourg'
+    'Lithuania', 'Luxembourg', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Marshall Islands', 'Mauritania', 'Mauritius', 'Mexico',
+    'Micronesia (country)', 'Moldova', 'Mongolia', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'New Zealand', 'Nicaragua',
+    'Niger', 'Nigeria', 'North Korea', 'North Macedonia', 'Northern Mariana Islands', 'Norway', 'Oman', 'Pakistan', 'Palestine', 'Panama', 'Papua New Guinea',
+    'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Puerto Rico', 'Qatar', 'Romania', 'Russia', 'Rwanda', 'Saint Lucia', 'Saint Vincent and the Grenadines',
+    'Samoa', 'Sao Tome and Principe', 'Saudi Arabia', 'Senegal', 'Serbia', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovakia', 'Slovenia', 'Solomon Islands',
+    'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'Spain', 'Sri Lanka', 'Sudan', 'Suriname', 'Sweden', 'Switzerland', 'Syria', 'Tajikistan',
+    'Tanzania', 'Thailand', 'Timor', 'Togo', 'Tonga', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates',
+    'United Kingdom', 'United States', 'United States Virgin Islands', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Venezuela', 'Vietnam', 'Yemen', 'Zambia', 'Zimbabwe'
   ]
 
   let countriesInnerContainer = document.getElementById('countries-inner-container')
@@ -470,12 +477,12 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'Micronesia (country)':
         table = data.split(/\n/).slice(1453, 1465);
         break;
-      case 'Middle East and North Africa':
-        table = data.split(/\n/).slice(1465, 1477);
-        break;
-      case 'Middle income':
-        table = data.split(/\n/).slice(1477, 1489);
-        break;
+      // case 'Middle East and North Africa':
+      //   table = data.split(/\n/).slice(1465, 1477);
+      //   break;
+      // case 'Middle income':
+      //   table = data.split(/\n/).slice(1477, 1489);
+      //   break;
       case 'Moldova':
         table = data.split(/\n/).slice(1489, 1501);
         break;
@@ -515,9 +522,9 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'Nigeria':
         table = data.split(/\n/).slice(1633, 1645);
         break;
-      case 'North America':
-        table = data.split(/\n/).slice(1645, 1657);
-        break;
+      // case 'North America':
+      //   table = data.split(/\n/).slice(1645, 1657);
+      //   break;
       case 'North Korea':
         table = data.split(/\n/).slice(1657, 1669);
         break;
@@ -620,9 +627,9 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'South Africa':
         table = data.split(/\n/).slice(2053, 2065);
         break;
-      case 'South Asia': 
-        table = data.split(/\n/).slice(2065, 2077);
-        break;
+      // case 'South Asia': 
+      //   table = data.split(/\n/).slice(2065, 2077);
+      //   break;
       case 'South Korea':
         table = data.split(/\n/).slice(2077, 2089);
         break;
@@ -635,9 +642,9 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'Sri Lanka':
         table = data.split(/\n/).slice(2113, 2125);
         break;
-      case 'Sub-Saharan Africa':
-        table = data.split(/\n/).slice(2125, 2137);
-        break;
+      // case 'Sub-Saharan Africa':
+      //   table = data.split(/\n/).slice(2125, 2137);
+      //   break;
       case 'Sudan':
         table = data.split(/\n/).slice(2137, 2149);
         break;
@@ -698,9 +705,9 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'United States Virgin Islands':
         table = data.split(/\n/).slice(2377, 2389);
         break;
-      case 'Upper middle income':
-        table = data.split(/\n/).slice(2389, 2401);
-        break;
+      // case 'Upper middle income':
+      //   table = data.split(/\n/).slice(2389, 2401);
+      //   break;
       case 'Uruguay':
         table = data.split(/\n/).slice(2401, 2413);
         break;
@@ -716,9 +723,9 @@ document.addEventListener("DOMContentLoaded", () => {
       case 'Vietnam':
         table = data.split(/\n/).slice(2449, 2461);
         break;
-      case 'World':
-        table = data.split(/\n/).slice(2461, 2473);
-        break;
+      // case 'World':
+      //   table = data.split(/\n/).slice(2461, 2473);
+      //   break;
       case 'Yemen':
         table = data.split(/\n/).slice(2473, 2485);
         break;
