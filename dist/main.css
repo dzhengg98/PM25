@@ -1,3 +1,6 @@
+/*!****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/reset.css ***!
+  \****************************************************************************************************/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,6 +49,299 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{background-color:#e6e6fa;font-family:Helvetica,sans-serif}header{display:flex;justify-content:center;padding:10px;background-color:hwb(300 63% 13%)}.title{font-size:32px;font-weight:bold;text-align:center;background-color:plum}.links{position:relative;right:-210px;display:flex;gap:20px;background-color:plum}.links a{background-color:plum}.links a svg{height:28px;width:28px;background-color:plum;transition:all .3s ease-out}.links a:hover{background-color:plum}.links a:hover svg{transform:rotate(360deg) scale(1.1);background-color:plum}.first-section{display:flex;margin:30px 50px;justify-content:center}.first-section .text-info{max-width:700px;display:flex;flex-direction:column;gap:30px;margin-right:100px;border:2px double violet;border-radius:10px;padding:10px}.first-section .countries-container{display:flex;flex-direction:column;width:175px;min-width:175px;max-height:640px;border:2px double violet;border-radius:10px;padding:10px}.first-section .countries-container h2{text-align:center;margin:10px 0 15px;font-weight:bold;color:rgba(34,34,34,.8)}.first-section .countries-container #countries-inner-container{overflow-y:scroll}.first-section .countries-container #countries-inner-container .country-container{margin-left:0px}.first-section .countries-container #countries-inner-container .country-container .country-name{position:relative;top:-20px;left:60px;font-size:12px;width:115px}.first-section .countries-container #countries-inner-container .country-container .country-name:hover{color:skyblue}.countries{width:40px;height:auto;margin:1px;cursor:pointer}.countries img{width:inherit;height:inherit;object-fit:fill}.second-section{display:flex;margin:30px 50px;justify-content:center}.second-section #countryInfo{display:flex;margin:30px 50px;justify-content:center}.second-section #countryInfo .country-info-inner-1{width:300px;max-width:300px;margin-right:100px;border:2px double violet;border-radius:10px;padding:10px}.second-section #countryInfo .country-info-inner-1 .country-map{width:300px}.second-section #countryInfo .country-info-inner-2{width:576px;max-width:576px;border:2px double violet;border-radius:10px;padding:10px}.second-section #countryInfo .country-info-inner-2 .country-title{text-align:center;font-weight:bold;font-size:30px;margin:30px 0}.second-section #countryInfo .country-info-inner-2 .country-data-info{display:flex;justify-content:space-evenly}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange{width:100px}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 h4,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 h4,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange h4,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange h4{font-size:16px;height:40px;font-weight:bold;text-align:center;margin-bottom:40px;color:rgba(34,34,34,.8)}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 div,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 div,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange div,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange div{font-size:28px;font-weight:bold;margin-top:40px;color:rgba(34,34,34,.8)}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 .red-marker,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 .red-marker,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange .red-marker,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange .red-marker{color:rgba(250,0,0,.6)}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 .green-marker,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 .green-marker,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange .green-marker,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange .green-marker{color:rgba(6,121,94,.6)}@media screen and (max-width: 1024px){.links{right:-75px;gap:16px}.first-section .text-info{max-width:480px;gap:18px;margin-right:50px}.first-section .text-info #canvasChart{margin:20px 0 40px}.second-section #countryInfo .country-info-inner-1{width:190px;max-width:190px;margin-right:50px}.second-section #countryInfo .country-info-inner-1 .country-map{width:190px}.second-section #countryInfo .country-info-inner-2{width:466px;max-width:476px}.second-section #countryInfo .country-info-inner-2 .country-title{font-size:22px}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange{width:88px}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 div,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 div,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange div,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange div{font-size:20px}}@media screen and (max-width: 600px){header{flex-direction:column;gap:20px;min-width:370px}.links{right:0;display:flex;justify-content:center}.first-section{flex-direction:column;gap:10px;margin:10px}.first-section .text-info{display:flex;flex-direction:column-reverse;width:350px;font-size:10px}.first-section .text-info #canvasChart{margin:0}.first-section .countries-container{width:350px;height:200px}.second-section{margin:10px;width:350px}.second-section #countryInfo{flex-direction:column;width:350px;margin:0}.second-section #countryInfo .country-info-inner-1{width:350px;max-width:350px;margin-bottom:10px}.second-section #countryInfo .country-info-inner-1 .country-map{width:350px}.second-section #countryInfo .country-info-inner-2{width:350px;max-width:350px}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange{margin-bottom:0}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 h4,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 h4,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange h4,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange h4{margin:20px 0 10px}.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 div,.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 div,.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange div,.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange div{margin-top:0;font-size:16px;text-align:center}}
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*************************************************************************************************************************************/
+* {
+  background-color: lavender;
+  font-family: Helvetica, sans-serif;
+}
 
-/*# sourceMappingURL=main.css.map*/
+header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: hwb(300 63% 13%);
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  background-color: plum;
+}
+
+.links {
+  position: relative;
+  right: -210px;
+  display: flex;
+  gap: 20px;
+  background-color: plum;
+}
+.links a {
+  background-color: plum;
+}
+.links a svg {
+  height: 28px;
+  width: 28px;
+  background-color: plum;
+  transition: all 0.3s ease-out;
+}
+.links a:hover {
+  background-color: plum;
+}
+.links a:hover svg {
+  transform: rotate(360deg) scale(1.1);
+  background-color: plum;
+}
+
+.first-section {
+  display: flex;
+  margin: 30px 50px;
+  justify-content: center;
+}
+.first-section .text-info {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 100px;
+  border: 2px double violet;
+  border-radius: 10px;
+  padding: 10px;
+}
+.first-section .countries-container {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  min-width: 175px;
+  max-height: 640px;
+  border: 2px double violet;
+  border-radius: 10px;
+  padding: 10px;
+}
+.first-section .countries-container h2 {
+  text-align: center;
+  margin: 10px 0 15px;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 0.8);
+}
+.first-section .countries-container #countries-inner-container {
+  overflow-y: scroll;
+}
+.first-section .countries-container #countries-inner-container .country-container {
+  margin-left: 0px;
+}
+.first-section .countries-container #countries-inner-container .country-container .country-name {
+  position: relative;
+  top: -20px;
+  left: 60px;
+  font-size: 12px;
+  width: 115px;
+}
+.first-section .countries-container #countries-inner-container .country-container .country-name:hover {
+  color: skyblue;
+}
+
+.countries {
+  width: 40px;
+  height: auto;
+  margin: 1px;
+  cursor: pointer;
+}
+.countries img {
+  width: inherit;
+  height: inherit;
+  object-fit: fill;
+}
+
+.second-section {
+  display: flex;
+  margin: 30px 50px;
+  justify-content: center;
+}
+.second-section #countryInfo {
+  display: flex;
+  margin: 30px 50px;
+  justify-content: center;
+}
+.second-section #countryInfo .country-info-inner-1 {
+  display: flex;
+  width: 300px;
+  max-width: 300px;
+  margin-right: 100px;
+  border: 2px double violet;
+  border-radius: 10px;
+  padding: 10px;
+}
+.second-section #countryInfo .country-info-inner-1 .country-map {
+  width: 300px;
+}
+.second-section #countryInfo .country-info-inner-2 {
+  width: 576px;
+  max-width: 576px;
+  border: 2px double violet;
+  border-radius: 10px;
+  padding: 10px;
+}
+.second-section #countryInfo .country-info-inner-2 .country-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 0;
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange {
+  width: 100px;
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 h4,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 h4,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange h4,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange h4 {
+  font-size: 16px;
+  height: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgba(34, 34, 34, 0.8);
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange div {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  color: rgba(34, 34, 34, 0.8);
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 .red-marker,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 .red-marker,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange .red-marker,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange .red-marker {
+  color: rgba(250, 0, 0, 0.6);
+}
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 .green-marker,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 .green-marker,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange .green-marker,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange .green-marker {
+  color: rgba(6, 121, 94, 0.6);
+}
+
+@media screen and (max-width: 1024px) {
+  .links {
+    right: -75px;
+    gap: 16px;
+  }
+  .first-section .text-info {
+    max-width: 480px;
+    gap: 18px;
+    margin-right: 50px;
+  }
+  .first-section .text-info #canvasChart {
+    margin: 20px 0 40px;
+  }
+  .second-section #countryInfo .country-info-inner-1 {
+    width: 190px;
+    max-width: 190px;
+    margin-right: 50px;
+  }
+  .second-section #countryInfo .country-info-inner-1 .country-map {
+    width: 190px;
+  }
+  .second-section #countryInfo .country-info-inner-2 {
+    width: 466px;
+    max-width: 476px;
+  }
+  .second-section #countryInfo .country-info-inner-2 .country-title {
+    font-size: 22px;
+  }
+  .second-section #countryInfo .country-info-inner-2 .country-data-info .country1990,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange {
+    width: 88px;
+  }
+  .second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange div {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+    min-width: 370px;
+  }
+  .links {
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .first-section {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+  .first-section .text-info {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 350px;
+    font-size: 10px;
+  }
+  .first-section .text-info #canvasChart {
+    margin: 0;
+  }
+  .first-section .countries-container {
+    width: 350px;
+    height: 200px;
+  }
+  .second-section {
+    margin: 10px;
+    width: 350px;
+  }
+  .second-section #countryInfo {
+    flex-direction: column;
+    width: 350px;
+    margin: 0;
+  }
+  .second-section #countryInfo .country-info-inner-1 {
+    width: 350px;
+    max-width: 350px;
+    margin-bottom: 10px;
+  }
+  .second-section #countryInfo .country-info-inner-1 .country-map {
+    width: 350px;
+  }
+  .second-section #countryInfo .country-info-inner-2 {
+    width: 350px;
+    max-width: 350px;
+  }
+  .second-section #countryInfo .country-info-inner-2 .country-data-info .country1990,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange {
+    margin-bottom: 0;
+  }
+  .second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 h4,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 h4,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange h4,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange h4 {
+    margin: 20px 0 10px;
+  }
+  .second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange div,
+.second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange div {
+    margin-top: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+}

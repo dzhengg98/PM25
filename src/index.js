@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let countryImage = document.createElement('img');
       countryImage.title = country;
       countryImage.src = `./src/assets/${country}.svg`;
-      countryImage.srcset = `./src/assets/${country}.svg`;
+      // countryImage.srcset = `./src/assets/${country}.svg`;
       countryImage.alt = country;
       countries.appendChild(countryImage);
       
@@ -1004,7 +1004,6 @@ document.addEventListener("DOMContentLoaded", () => {
       default:
         null;
     }
-    // console.log(table);
 
     table.forEach((row, i) => {
       const columns = row.split(',');
@@ -1021,15 +1020,10 @@ document.addEventListener("DOMContentLoaded", () => {
       } else if (i === table.length - 1) {
         seventeen.push(columns[3])
       }
-
-      // console.log(ninety, seventeen)
-      console.log(country, year, pm25);
     });
 
     ninety = parseFloat(ninety);
     seventeen = parseFloat(seventeen);
-
-    // console.log(ninety, seventeen)
 
     return { xlabels, ypm25, countryName, ninety, seventeen, countryMap };
   };
