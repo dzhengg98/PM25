@@ -119,6 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
     absoluteChange.appendChild(absoluteChangeTitle);
     const absoluteChangeInfo = document.createElement('div');
     absoluteChangeInfo.textContent = (data.seventeen - data.ninety).toFixed(2) + 'μg';
+    (data.seventeen - data.ninety).toFixed(2) > 0 ? absoluteChangeInfo.classList.add('red-marker') : absoluteChangeInfo.classList.add('green-marker');
     absoluteChange.append(absoluteChangeInfo)
 
     const relativeChange = document.createElement('div');
@@ -129,6 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
     relativeChange.appendChild(relativeChangeTitle);
     const relativeChangeInfo = document.createElement('div')
     relativeChangeInfo.textContent = ((data.seventeen - data.ninety)/(data.ninety)*(100)).toFixed(2) + '%';
+    ((data.seventeen - data.ninety)/(data.ninety)*(100)).toFixed(2) > 0 ? relativeChangeInfo.classList.add('red-marker') : relativeChangeInfo.classList.add('green-marker');
     relativeChange.append(relativeChangeInfo);
 
     myChart = new Chart(ctx, {
