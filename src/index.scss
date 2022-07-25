@@ -219,6 +219,7 @@ header {
   header {
     flex-direction: column;
     gap: 20px;
+    min-width: 370px;
   }
 
   .links {
@@ -234,35 +235,35 @@ header {
     .text-info {
       display: flex;
       flex-direction: column-reverse;
-      width: 330px;
+      width: 350px;
       font-size: 10px;
       #canvasChart {
         margin: 0;
       }
     }
     .countries-container {
-      width: 330px;
+      width: 350px;
       height: 200px;
     }
   }
   .second-section {
     margin: 10px;
-    width: 330px;
+    width: 350px;
     #countryInfo {
       flex-direction: column;
-      width: 330px;
+      width: 350px;
       margin: 0;
       .country-info-inner-1 {
-        width: 330px;
-        max-width: 330px;
+        width: 350px;
+        max-width: 350px;
         margin-bottom: 10px;
         .country-map {
-          width: 330px;
+          width: 350px;
         }
       }
       .country-info-inner-2 {
-        width: 330px;
-        max-width: 330px;
+        width: 350px;
+        max-width: 350px;
         .country-data-info {
           .country1990,
           .country2017,

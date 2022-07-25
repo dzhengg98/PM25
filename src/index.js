@@ -50,7 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function createChartForCountry() {
     arrayOfCountries.forEach(country => document.getElementById(country.replace(/ /g, '')).addEventListener("click", (e) => {
-      // debugger
       e.preventDefault();
       if (myChart) {
         myChart.destroy();
@@ -61,7 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function createChart(field) {
     const data = await getData(field);
-    // debugger
     const ctx = document.getElementById('canvasChart').getContext('2d');
 
     const countryInfo = document.getElementById('countryInfo')
