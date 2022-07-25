@@ -225,12 +225,14 @@ header {
 .second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange .red-marker,
 .second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange .red-marker {
   color: rgba(250, 0, 0, 0.6);
+  text-align: center;
 }
 .second-section #countryInfo .country-info-inner-2 .country-data-info .country1990 .green-marker,
 .second-section #countryInfo .country-info-inner-2 .country-data-info .country2017 .green-marker,
 .second-section #countryInfo .country-info-inner-2 .country-data-info .absoluteChange .green-marker,
 .second-section #countryInfo .country-info-inner-2 .country-data-info .relativeChange .green-marker {
   color: rgba(6, 121, 94, 0.6);
+  text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
