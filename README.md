@@ -86,7 +86,7 @@ myChart = new Chart(ctx, {
 - Vanilla JS and DOM manipulation to handle HTML element interactions
 - Canvas API and ChartJS to handle chart information and interactions
 - Scss for styling purposes
-- Webpack and Bable.JS to transpile scripts for efficiency
+- Webpack and Babel.JS to transpile scripts for efficiency
 
 # Future Plans
 
