@@ -93,6 +93,7 @@ myChart = new Chart(ctx, {
 - Add additional information for more interactivity
 - Add a search/filter for the country/territory list
 - Add countries interactivity
+- Use D3JS for better interactivity
 
 # Credit:
 
