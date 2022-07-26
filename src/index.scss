@@ -72,6 +72,17 @@ header {
       font-weight: bold;
       color: rgba(34, 34, 34, 0.8);
     }
+    .searchbox {
+      margin-bottom: 10px;
+      .searchbar {
+        border: 1px solid #555;
+        max-width: 135px;
+        width: 135px;
+        height: 25px;
+        border-radius: 3px;
+        padding: 0px 20px;
+      }
+    }
     #countries-inner-container {
       overflow-y: scroll;
       .country-container {

@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
         myChart.destroy();
       }
       createChart(country);
+      window.scrollTo(0, 0);
     }));
   }
 
@@ -1032,4 +1033,20 @@ document.addEventListener("DOMContentLoaded", () => {
   createCountries();
   createChartForCountry();
 
+  const searchBox = document.querySelector('.searchbox');
+
+  const countryElement = document.querySelectorAll('.country-container div div');
+  const countryContainerElement = document.querySelectorAll('.country-container');
+
+  function search(e) {
+    countryElement.forEach((ele, i) => {
+      if (!ele.innerHTML.toLowerCase().includes(e.target.value)) {
+        countryContainerElement[i].style.display = 'none';
+      } else {
+        countryContainerElement[i].style.display = 'block';
+      }
+    })
+  }
+
+  searchBox.addEventListener("keyup", search);
 });
