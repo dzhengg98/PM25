@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
           y: {
             ticks: {
               callback: function(value, index, values) {
-                return value + 'µg'
+                return value.toFixed(3) + 'µg'
               }
             }
           }
