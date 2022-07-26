@@ -11,6 +11,8 @@ There is an interactive graph based on which country/territory you click to view
 
 There is also a interactive globe and data which shows the absolute change and relative change over the 30-year period.
 
+You can filter the countries through a search filter for easier traversal instead of having to scroll and search for the country you are looking for.
+
 ## Tablet Devices
 
 <img src="./src/assets/tablet.gif" alt="tablet.gif">
@@ -78,6 +80,25 @@ myChart = new Chart(ctx, {
     },
   },
 });
+```
+
+The search filter helps for a easier traversal of the countries/territory list through the use of querySelectorAll and changing the style from display block to display none.
+
+```javascript
+const searchBox = document.querySelector(".searchbox");
+
+const countryElement = document.querySelectorAll(".country-container div div");
+const countryContainerElement = document.querySelectorAll(".country-container");
+
+function search(e) {
+  countryElement.forEach((ele, i) => {
+    if (!ele.innerHTML.toLowerCase().includes(e.target.value)) {
+      countryContainerElement[i].style.display = "none";
+    } else {
+      countryContainerElement[i].style.display = "block";
+    }
+  });
+}
 ```
 
 # Technologies used
